@@ -1,21 +1,11 @@
 <template>
-    <NuxtLink :to="to" class="atom-link" @click="emitClickEvent">
-        {{ label }}
-    </NuxtLink>
-  </template>
+    
+</template>
   
   <script lang="ts">
     import { Vue, Component, Prop } from 'nuxt-property-decorator';
     
-    @Component
-    export default class AtomLink extends Vue {
-      @Prop({ required: true }) readonly to!: string;
-      @Prop({ required: true }) readonly label!: string;
     
-      emitClickEvent() {
-        this.$emit('clicked');
-      } 
-    }
   </script>
   
   <style scoped>
