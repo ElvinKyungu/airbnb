@@ -1,4 +1,5 @@
 <template>
-    <ModalCookie />
-    <Catalogue />
+    
+    <CardMainCard/>
+    <!-- <ModalCookie /> -->
 </template>

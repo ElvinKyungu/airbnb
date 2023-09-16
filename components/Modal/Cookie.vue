@@ -1,7 +1,7 @@
 
 import { NuxtLink } from '.nuxt/components';
 <template>
-    <div class="flex justify-center">
+    <div class="flex justify-center z-50">
         <div 
             class="w-[90%] m-auto bg-white shadow-xl p-6 
             fixed bottom-6 rounded-md border border-gray-200"
